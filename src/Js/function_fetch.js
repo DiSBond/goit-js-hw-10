@@ -34,7 +34,7 @@ export function fetchCountries(name) {
             if (country.length > 10) {
                 Notiflix.Notify.info("Too many matches found. Please enter a more specific name.")
             }
-
+// 1
     }).catch(error => {
     console.log(error);
 })
