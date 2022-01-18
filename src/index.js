@@ -18,9 +18,4 @@ if (input.value === " " || input.value === "") {
    return
 }
    fetchCountries(input.value.trim())
-    
-}
-
-function clearInterface(params) {
-    
 }
